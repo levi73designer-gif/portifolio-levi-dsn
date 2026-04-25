@@ -2,6 +2,7 @@
 
 import React from 'react'
 import styles from './ProjectCard.module.css'
+import LazyImage from '../ui/LazyImage'
 import { PortfolioProject } from '../../data/portfolio'
 
 interface ProjectCardProps {
@@ -11,8 +12,12 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className={styles.card}>
-      <div className={styles.imagePlaceholder}>
-        <span className={styles.placeholderText}>{project.name}</span>
+      <div className={styles.imageWrapper}>
+        <LazyImage
+          src={project.image}
+          alt={project.name}
+          className={styles.image}
+        />
       </div>
       
       <div className={styles.content}>

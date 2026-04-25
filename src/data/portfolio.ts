@@ -16,7 +16,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'Levi.dsn',
     type: 'Identidade Visual — Marca Pessoal',
     context: 'Antes de criar para outros, precisei me encontrar. Conduzi um processo de autoentrevista para mapear valores, intenções e linguagem — e traduzi tudo isso em uma identidade consistente e autoral.',
-    image: '/images/identity/levi-dsn.jpg'
+    image: '/images/identity/levi-dsn.png'
   },
   {
     id: 'levaint-inc',
@@ -24,7 +24,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'Levaint.inc',
     type: 'Identidade Visual — Estúdio Institucional',
     context: 'Uma marca que é um manifesto. Pesquisei os grandes movimentos culturais da história para construir uma identidade que não apenas comunica — mas declara uma visão de mundo.',
-    image: '/images/identity/levaint-inc.jpg'
+    image: '/images/identity/levaint-inc.png'
   },
   // Social Media Institucional
   {
@@ -34,7 +34,7 @@ export const portfolioProjects: PortfolioProject[] = [
     type: 'Social Media — Instituição Religiosa',
     deliveries: ['Flyers de cultos semanais', 'Treinamentos', 'Eventos', 'Vigílias', 'Cultos temáticos', 'Banners', 'Arte para telão', 'Datas comemorativas'],
     context: 'Comunicar fé exige respeito à identidade e sensibilidade com a comunidade. Desenvolvi materiais visuais para cada departamento da IEQ local — cultos, eventos, treinamentos e datas comemorativas — mantendo coerência com a identidade nacional da IEQ Brasil.',
-    image: '/images/social/ieq.jpg'
+    image: '/images/social/ieq.png'
   },
   {
     id: 'seec-sp',
@@ -43,7 +43,7 @@ export const portfolioProjects: PortfolioProject[] = [
     type: 'Social Media — Instituição de Ensino',
     deliveries: ['Flyers de cursos livres de teologia', 'Cursos de idiomas', 'Eventos educacionais', 'Datas comemorativas'],
     context: 'Transformar educação em desejo. Criei materiais visuais para cursos livres e eventos da Secretaria Estadual de Educação e Cultura da Quadrangular — visual moderno que atrai novos alunos sem perder a identidade institucional.',
-    image: '/images/social/seec-sp.jpg'
+    image: '/images/social/seec-sp.png'
   },
   // Projetos Digitais
   {
@@ -52,7 +52,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'Virada',
     type: 'Landing Page de Lançamento — Projeto Fictício',
     context: 'Para quem está no meio do caos e precisa de direção. Desenvolvi a identidade visual e a estrutura de conversão de uma landing page de lançamento — com ganchos estratégicos para transformar visitantes em alunos.',
-    image: '/images/digital/virada.jpg'
+    image: '/images/digital/virada.png'
   },
   {
     id: 'tropa-recomeco',
@@ -60,7 +60,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'Tropa do Recomeço',
     type: 'Apresentação de Projeto — Projeto Fictício',
     context: 'Um projeto que precisava sair do papel e chegar na mesa dos sócios certo. Criei a identidade visual e a estrutura de apresentação para alinhar visão, posicionamento e próximos passos com a equipe.',
-    image: '/images/digital/tropa-recomeco.jpg'
+    image: '/images/digital/tropa-recomeco.png'
   }
 ]
 

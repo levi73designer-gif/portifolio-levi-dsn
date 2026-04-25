@@ -12,23 +12,14 @@
   border-color: var(--color-primary);
 }
 
-.imagePlaceholder {
+.imageWrapper {
   aspect-ratio: 16 / 9;
-  background: linear-gradient(135deg, var(--color-background-alt) 0%, var(--color-border) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
   overflow: hidden;
 }
 
-.placeholderText {
-  font-family: var(--font-heading);
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  color: var(--color-text-muted);
-  text-align: center;
-  padding: var(--spacing-4);
-  opacity: 0.5;
+.image {
+  width: 100%;
+  height: 100%;
 }
 
 .content {
