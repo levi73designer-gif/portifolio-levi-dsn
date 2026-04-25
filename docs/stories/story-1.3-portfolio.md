@@ -2,7 +2,7 @@
 
 **Epic:** E1 — Levi.dsn Portfolio Site  
 **Priority:** HIGH  
-**Status:** Draft  
+**Status:** Ready for Dev  
 **Created:** 2026-04-24
 
 ---
@@ -15,27 +15,27 @@ Como visitante do site, quero filtrar projetos por categoria (Identidade Visual,
 
 ## Tasks
 
-- [ ] 1. Criar estrutura de dados `portfolio.ts` com 6 projetos
-- [ ] 2. Criar componente `Portfolio.tsx` (container da seção)
-- [ ] 3. Criar componente `PortfolioFilter.tsx` (abas de filtro)
-- [ ] 4. Criar componente `ProjectCard.tsx` (card individual)
-- [ ] 5. Implementar lógica de filtro por categoria
-- [ ] 6. Estilizar cards com hover effects
-- [ ] 7. Implementar responsividade (grid adaptativo)
-- [ ] 8. Adicionar placeholders para imagens
+- [x] 1. Criar estrutura de dados `portfolio.ts` com 6 projetos
+- [x] 2. Criar componente `Portfolio.tsx` (container da seção)
+- [x] 3. Criar componente `PortfolioFilter.tsx` (abas de filtro)
+- [x] 4. Criar componente `ProjectCard.tsx` (card individual)
+- [x] 5. Implementar lógica de filtro por categoria
+- [x] 6. Estilizar cards com hover effects
+- [x] 7. Implementar responsividade (grid adaptativo)
+- [x] 8. Adicionar placeholders para imagens
 
 ---
 
 ## Acceptance Criteria
 
-- [ ] 3 categorias de filtro: Identidade Visual, Social Media, Projetos Digitais
-- [ ] 6 projetos cadastrados (2 por categoria)
-- [ ] Filtro funciona com clique nas abas
-- [ ] Cards exibem: nome do projeto, tipo, contexto
-- [ ] Grid responsivo (1 coluna mobile, 2 tablet, 3 desktop)
-- [ ] Hover effect nos cards
-- [ ] Placeholders para imagens (serão substituídas depois)
-- [ ] Animação de transição ao filtrar
+- [x] 3 categorias de filtro: Identidade Visual, Social Media, Projetos Digitais
+- [x] 6 projetos cadastrados (2 por categoria)
+- [x] Filtro funciona com clique nas abas
+- [x] Cards exibem: nome do projeto, tipo, contexto
+- [x] Grid responsivo (1 coluna mobile, 2 tablet, 3 desktop)
+- [x] Hover effect nos cards
+- [x] Placeholders para imagens (serão substituídas depois)
+- [x] Animação de transição ao filtrar
 
 ---
 
@@ -79,9 +79,9 @@ interface PortfolioProject {
 <!-- References to debug logs if any -->
 
 ### Completion Notes
-- [ ] All tasks completed
-- [ ] All acceptance criteria met
-- [ ] Code reviewed and tested
+- [x] All tasks completed
+- [x] All acceptance criteria met
+- [x] Code reviewed and tested
 
 ### Change Log
 | Date | Change | Author |
@@ -90,24 +90,27 @@ interface PortfolioProject {
 
 ### File List
 <!-- List all files created/modified/deleted -->
-- [ ] `src/components/portfolio/Portfolio.tsx`
-- [ ] `src/components/portfolio/PortfolioFilter.tsx`
-- [ ] `src/components/portfolio/ProjectCard.tsx`
-- [ ] `src/components/portfolio/Portfolio.module.css`
-- [ ] `src/data/portfolio.ts`
+- [x] `src/data/portfolio.ts` — Dados dos 6 projetos + categorias
+- [x] `src/components/portfolio/Portfolio.tsx` — Container da seção com filtro
+- [x] `src/components/portfolio/PortfolioFilter.tsx` — Componente de abas
+- [x] `src/components/portfolio/PortfolioFilter.module.css` — Estilos do filtro
+- [x] `src/components/portfolio/ProjectCard.tsx` — Card individual
+- [x] `src/components/portfolio/ProjectCard.module.css` — Estilos do card
+- [x] `src/components/portfolio/Portfolio.module.css` — Estilos do grid
+- [x] `src/app/App.tsx` — Atualizado com Portfolio
 
 ---
 
 ## Testing
 
-- [ ] Filtro alterna entre categorias
-- [ ] Todos os 6 projetos exibidos corretamente
-- [ ] Grid responsivo em mobile/tablet/desktop
-- [ ] Animação de filtro suave
-- [ ] Placeholders de imagem carregam
+- [x] Filtro alterna entre categorias
+- [x] Todos os 6 projetos exibidos corretamente
+- [x] Grid responsivo em mobile/tablet/desktop
+- [x] Animação de filtro suave
+- [x] Placeholders de imagem carregam
 
 ---
 
 **Estimated Effort:** 3h  
-**Actual Effort:** ___  
-**Ready for Review:** [ ]
+**Actual Effort:** 2h  
+**Ready for Review:** [x]

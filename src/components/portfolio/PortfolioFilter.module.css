@@ -1,0 +1,51 @@
+.filter {
+  display: flex;
+  gap: var(--spacing-2);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: var(--spacing-12);
+  padding: var(--spacing-2);
+  background-color: var(--color-background);
+  border-radius: 8px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab {
+  padding: var(--spacing-3) var(--spacing-6);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all var(--transition-fast);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tab:hover {
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.tab.active {
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* Mobile First */
+@media (max-width: 640px) {
+  .filter {
+    gap: var(--spacing-1);
+    padding: var(--spacing-1);
+  }
+
+  .tab {
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: var(--text-xs);
+  }
+}

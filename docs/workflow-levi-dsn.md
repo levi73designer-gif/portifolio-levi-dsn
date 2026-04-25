@@ -55,7 +55,7 @@ Desenvolvimento do site portfólio one-page para Levi.dsn usando Antigravity + V
 | 1.0 | Setup do Projeto | [x] **DONE** | [x] |
 | 1.1 | Seção Hero | [x] **DONE** | [x] |
 | 1.2 | Seção Sobre | [x] **DONE** | [x] |
-| 1.3 | Seção Portfólio | [ ] | [ ] |
+| 1.3 | Seção Portfólio | [x] **DONE** | [x] |
 | 1.4 | Seção Contato | [ ] | [ ] |
 | 1.5 | Deploy Vercel | [ ] | [ ] |
 
@@ -108,7 +108,8 @@ Uma story está **DONE** quando:
 3. ~~Ativar @dev para implementação (Story 1.0)~~ ✅ DONE
 4. ~~Ativar @dev para Story 1.1 (Seção Hero)~~ ✅ DONE
 5. ~~Ativar @dev para Story 1.2 (Seção Sobre)~~ ✅ DONE
-6. **Next:** Ativar @dev para Story 1.3 (Seção Portfólio)
+6. ~~Ativar @dev para Story 1.3 (Seção Portfólio)~~ ✅ DONE
+7. **Next:** Ativar @dev para Story 1.4 (Seção Contato)
 
 ---
 

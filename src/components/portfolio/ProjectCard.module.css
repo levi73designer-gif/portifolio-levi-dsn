@@ -1,0 +1,102 @@
+.card {
+  background-color: var(--color-background);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(232, 24, 26, 0.2);
+  border-color: var(--color-primary);
+}
+
+.imagePlaceholder {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--color-background-alt) 0%, var(--color-border) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholderText {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: var(--spacing-4);
+  opacity: 0.5;
+}
+
+.content {
+  padding: var(--spacing-6);
+}
+
+.name {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-2);
+}
+
+.type {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--spacing-4);
+}
+
+.context {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-4);
+}
+
+.deliveries {
+  list-style: none;
+  padding: 0;
+}
+
+.deliveries li {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  padding: var(--spacing-1) 0;
+  padding-left: var(--spacing-4);
+  position: relative;
+}
+
+.deliveries li::before {
+  content: '•';
+  color: var(--color-primary);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Mobile First */
+@media (max-width: 640px) {
+  .content {
+    padding: var(--spacing-4);
+  }
+
+  .name {
+    font-size: var(--text-lg);
+  }
+
+  .type {
+    font-size: var(--text-xs);
+  }
+
+  .context {
+    font-size: var(--text-sm);
+  }
+}
