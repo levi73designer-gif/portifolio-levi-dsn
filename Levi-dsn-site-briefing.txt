@@ -1,0 +1,132 @@
+# Levi.dsn — Briefing de Site
+**Uso:** Briefing completo para construção no Antigravity + deploy via Vercel  
+**Formato:** One-page (scroll contínuo, sem navegação complexa)  
+**Objetivo:** Portfólio de prospecção — mostrar trabalhos e captar contato
+
+---
+
+## Identidade da Marca
+
+**Nome:** Levi.dsn  
+**Tagline:** Arte com propósito  
+**Cor primária:** Vermelho Quente `#E8181A`  
+**Tipografia:** archivo black font + Kanit  
+**Estética:** Fundo escuro, identidade autoral
+
+---
+
+## Arquitetura do Site
+
+```
+SEÇÃO 1 — Hero
+SEÇÃO 2 — Sobre
+SEÇÃO 3 — Portfólio
+SEÇÃO 4 — Contato
+```
+
+---
+
+## SEÇÃO 1 — Hero
+
+**Elementos:**
+- Nome: `Levi.dsn`
+- Tagline: `Arte com propósito`
+- Dois CTAs:
+  - Botão primário: `Veja meu trabalho` → ancora para seção Portfólio
+  - Botão secundário: `Fale comigo` → ancora para seção Contato
+
+---
+
+## SEÇÃO 2 — Sobre
+
+> Não começo pelo visual. Começo pelo problema.
+>
+> Sou Levi — designer com foco em identidade e comunicação visual para empresas, instituições e projetos que precisam se posicionar e ser vistos. Ouço, analiso e entrego uma solução na medida do que você precisa — nada a mais, nada a menos.
+>
+> Se você tem uma empresa que ainda não se comunica como deveria, uma instituição que precisa de presença, ou um projeto engavetado esperando o momento certo — esse momento é agora.
+>
+> **Vamos produzir o futuro que sonhamos.**
+
+---
+
+## SEÇÃO 3 — Portfólio
+
+Dividido em **3 categorias** com filtro/abas navegáveis:
+
+---
+
+### Categoria 1 — Identidade Visual
+
+**Projeto: Levi.dsn**
+- Tipo: Identidade Visual — Marca Pessoal
+- Contexto:
+  > Antes de criar para outros, precisei me encontrar. Conduzi um processo de autoentrevista para mapear valores, intenções e linguagem — e traduzi tudo isso em uma identidade consistente e autoral.
+
+---
+
+**Projeto: Levaint.inc**
+- Tipo: Identidade Visual — Estúdio Institucional
+- Contexto:
+  > Uma marca que é um manifesto. Pesquisei os grandes movimentos culturais da história para construir uma identidade que não apenas comunica — mas declara uma visão de mundo.
+
+---
+
+### Categoria 2 — Social Media Institucional
+
+**Projeto: IEQ — 1ª Igreja Quadrangular de Santa Gertrudes**
+- Tipo: Social Media — Instituição Religiosa
+- Entregas: Flyers de cultos semanais, treinamentos, eventos, vigílias, cultos temáticos, banners, arte para telão, datas comemorativas
+- Contexto:
+  > Comunicar fé exige respeito à identidade e sensibilidade com a comunidade. Desenvolvi materiais visuais para cada departamento da IEQ local — cultos, eventos, treinamentos e datas comemorativas — mantendo coerência com a identidade nacional da IEQ Brasil.
+
+---
+
+**Projeto: SEEC/SP — Secretaria Estadual de Educação e Cultura**
+- Tipo: Social Media — Instituição de Ensino
+- Entregas: Flyers de cursos livres de teologia, cursos de idiomas, eventos educacionais, datas comemorativas
+- Contexto:
+  > Transformar educação em desejo. Criei materiais visuais para cursos livres e eventos da Secretaria Estadual de Educação e Cultura da Quadrangular — visual moderno que atrai novos alunos sem perder a identidade institucional.
+
+---
+
+### Categoria 3 — Projetos Digitais
+
+**Projeto: Virada**
+- Tipo: Landing Page de Lançamento — Projeto Fictício
+- Contexto:
+  > Para quem está no meio do caos e precisa de direção. Desenvolvi a identidade visual e a estrutura de conversão de uma landing page de lançamento — com ganchos estratégicos para transformar visitantes em alunos.
+
+---
+
+**Projeto: Tropa do Recomeço**
+- Tipo: Apresentação de Projeto — Projeto Fictício
+- Contexto:
+  > Um projeto que precisava sair do papel e chegar na mesa dos sócios certo. Criei a identidade visual e a estrutura de apresentação para alinhar visão, posicionamento e próximos passos com a equipe.
+
+---
+
+## SEÇÃO 4 — Contato
+
+**Headline:** Tem um projeto? Me chama.
+
+**Canais:**
+- WhatsApp: *(+55 19 99953-1669)*
+- E-mail: *(levi73designer@gmail.com)*
+- Instagram: *(@levi.dsn)*
+
+**CTA principal:** Botão direto para WhatsApp
+
+---
+
+## Notas Técnicas
+
+- Stack: Antigravity + deploy via Vercel
+- GitHub username: `levi73designer-gif`
+- Site one-page com âncoras entre seções
+- Portfólio com filtro por categoria (Identidade Visual / Social Media / Projetos Digitais)
+- As imagens das peças devem ser inseridas manualmente após a estrutura estar no ar
+- **Obs:** O projeto PontoZero Reset™ (Rafhael B. Guiaro) está em construção e não deve ser incluído no portfólio público neste momento
+
+---
+
+*Briefing produzido como parte do protocolo PontoZero Reset™ aplicado — Fase 04/05*
