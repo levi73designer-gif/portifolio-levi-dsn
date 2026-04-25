@@ -120,7 +120,10 @@ Como proprietário do portfólio, quero que o site esteja publicado e acessível
 
 | Item | Value |
 |------|-------|
-| Vercel URL | `https://portifolio-levi-dsn.vercel.app` (configurar) |
+| Vercel URL | `https://portifolio-levi-dsn.vercel.app` ✅ |
+| Preview URL | `https://portifolio-levi-8wmp5fbee-levi73designer-9393s-projects.vercel.app` |
 | Domain | (opcional, configurar depois) |
 | Deploy Date | 2026-04-24 |
-| Last Commit | TBD |
+| Last Commit | bc0f186 |
+| Build Time | ~5s |
+| Build Size | 162 KB (gzip) |

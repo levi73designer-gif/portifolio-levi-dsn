@@ -116,12 +116,19 @@ Uma story está **DONE** quando:
 
 ## 🎉 PROJECT COMPLETE!
 
-**All stories delivered. Site ready for production.**
+**All stories delivered. Site LIVE on Vercel!**
 
-**Manual Steps Remaining:**
-1. Push to GitHub: `git remote add origin https://github.com/levi73designer-gif/portifolio-levi-dsn.git && git push -u origin main`
-2. Connect to Vercel: Import repo at [vercel.com](https://vercel.com)
-3. Add images to `public/images/` folders
+### ✅ Live URLs
+
+| Environment | URL |
+|-------------|-----|
+| **Production** | `https://portifolio-levi-dsn.vercel.app` |
+| Preview | `https://portifolio-levi-8wmp5fbee-levi73designer-9393s-projects.vercel.app` |
+| GitHub | `https://github.com/levi73designer-gif/portifolio-levi-dsn` |
+
+### 📝 Pending (Optional)
+- Add images to `public/images/` folders (identity, social, digital)
+- Configure custom domain (if desired)
 
 ---
 
