@@ -1,5 +1,5 @@
 {
-  "framework": "antigravity",
+  "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "devCommand": "npm run dev",
