@@ -53,7 +53,7 @@ Desenvolvimento do site portfólio one-page para Levi.dsn usando Antigravity + V
 | Story | Title | Status | Ready for Review |
 |-------|-------|--------|------------------|
 | 1.0 | Setup do Projeto | [x] **DONE** | [x] |
-| 1.1 | Seção Hero | [ ] | [ ] |
+| 1.1 | Seção Hero | [x] **DONE** | [x] |
 | 1.2 | Seção Sobre | [ ] | [ ] |
 | 1.3 | Seção Portfólio | [ ] | [ ] |
 | 1.4 | Seção Contato | [ ] | [ ] |
@@ -106,7 +106,8 @@ Uma story está **DONE** quando:
 1. ~~Ativar @po para validar story drafts~~ ✅ DONE
 2. ~~Ativar @architect para arquitetura~~ ✅ DONE
 3. ~~Ativar @dev para implementação (Story 1.0)~~ ✅ DONE
-4. **Next:** Ativar @dev para Story 1.1 (Seção Hero)
+4. ~~Ativar @dev para Story 1.1 (Seção Hero)~~ ✅ DONE
+5. **Next:** Ativar @dev para Story 1.2 (Seção Sobre)
 
 ---
 

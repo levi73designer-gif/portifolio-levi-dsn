@@ -1,11 +1,13 @@
+'use client'
+
 import React from 'react'
+import Hero from '../components/hero/Hero'
 
 function App() {
   return (
-    <main>
-      <h1>Levi.dsn</h1>
-      <p>Arte com propósito</p>
-    </main>
+    <>
+      <Hero />
+    </>
   )
 }
 

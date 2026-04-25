@@ -1,0 +1,81 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  padding: var(--spacing-8);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.name {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 15vw, 8rem);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-4);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 300;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-12);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.ctas {
+  display: flex;
+  gap: var(--spacing-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile First Responsiveness */
+@media (max-width: 640px) {
+  .hero {
+    padding: var(--spacing-6);
+  }
+
+  .ctas {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-3);
+  }
+
+  .ctas button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .name {
+    font-size: clamp(2.5rem, 10vw, 5rem);
+  }
+
+  .tagline {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+}
