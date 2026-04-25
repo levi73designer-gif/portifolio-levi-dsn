@@ -103,9 +103,10 @@ Uma story está **DONE** quando:
 
 ## Next Steps
 
-1. **Start:** Ativar @po para validar story drafts
-2. **Then:** Ativar @architect para arquitetura
-3. **Then:** Ativar @dev para implementação (Story 1.0)
+1. ~~Ativar @po para validar story drafts~~ ✅ DONE
+2. ~~Ativar @architect para arquitetura~~ ✅ DONE
+3. ~~Ativar @dev para implementação (Story 1.0)~~ ✅ DONE
+4. **Next:** Ativar @dev para Story 1.1 (Seção Hero)
 
 ---
 
